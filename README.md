@@ -15,9 +15,3 @@ A RESTful API built with Node.js, Express, and PostgreSQL for managing tasks. Su
 - npm ≥9.x
 - PostgreSQL ≥15.x
 - Postman or curl (for API testing)
-
-## Environment Variables 🔧
-Create a `.env` file in the root directory:
-```env
-DATABASE_URL=postgres://user:password@localhost:5432/taskdb
-PORT=3000
