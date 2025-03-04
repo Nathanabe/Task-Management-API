@@ -1,0 +1,28 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "A RESTful task management API with Node.js and PostgreSQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "migrate": "npx sequelize-cli db:migrate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "pg": "^8.11.3",
+    "sequelize": "^6.36.0",
+    "swagger-ui-express": "^5.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "sequelize-cli": "^6.6.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
